@@ -1,1 +1,1 @@
-exercicio EBAC-Primeiro projeto
+exercicio EBAC-Gulp
