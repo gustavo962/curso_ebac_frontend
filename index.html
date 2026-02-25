@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aniversário — 30/07</title>
+
+    <meta name="description" content="Landing page cinematográfica do evento de aniversário — 30/07." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="bg">
+      <div class="grain"></div>
+      <div class="vignette"></div>
+      <div class="spotlight"></div>
+    </div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Ir ao topo">
+          <span class="brand__mark">★</span>
+          <span class="brand__text">Noite de Estreia</span>
+        </a>
+
+        <nav class="nav">
+          <a href="#sobre">Sobre</a>
+          <a href="#programacao">Programação</a>
+          <a href="#contagem">Contagem</a>
+          <a href="#confirmar" class="btn btn--ghost">Confirmar</a>
+        </nav>
+
+        <button class="menu" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="mobile" id="mobileNav" hidden>
+        <a href="#sobre">Sobre</a>
+        <a href="#programacao">Programação</a>
+        <a href="#contagem">Contagem</a>
+        <a href="#confirmar">Confirmar</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__left">
+            <p class="tag">EVENTO • 30/07</p>
+
+            <h1 class="title">
+              Aniversário
+              <span class="title__glow">Cinematográfico</span>
+            </h1>
+
+            <p class="subtitle">
+              Uma noite estilo “première”: clima de filme, trilha, roteiro e um final
+              inesquecível. Data oficial: <strong>30/07</strong>.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn" href="#confirmar">Confirmar presença</a>
+              <a class="btn btn--ghost" href="#programacao">Ver programação</a>
+            </div>
+
+            <div class="meta">
+              <div class="meta__card">
+                <span class="meta__label">Tema</span>
+                <span class="meta__value">Cinematográfico</span>
+              </div>
+              <div class="meta__card">
+                <span class="meta__label">Data</span>
+                <span class="meta__value">30/07/2026</span>
+              </div>
+              <div class="meta__card">
+                <span class="meta__label">Dress code</span>
+                <span class="meta__value">Preto / Elegante</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__right" aria-hidden="true">
+            <div class="poster">
+              <div class="poster__top">
+                <span class="poster__pill">Edição Especial</span>
+                <span class="poster__pill poster__pill--hot">VIP</span>
+              </div>
+
+              <div class="poster__center">
+                <p class="poster__kicker">APRESENTA</p>
+                <p class="poster__big">30/07</p>
+                <p class="poster__small">Uma Noite • Um Filme • Um Evento</p>
+              </div>
+
+              <div class="poster__bottom">
+                <span>Som • Luz • Clima</span>
+                <span>Entrada • 19:30</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container">
+          <div class="section__head">
+            <h2>Sobre o evento</h2>
+            <p>
+              A ideia é simples: transformar um aniversário em uma experiência de cinema.
+              Visual escuro, brilho, detalhes e energia de “estreia”.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <h3>Ambiente</h3>
+              <p>Luzes suaves, clima premium e um toque de suspense no ar.</p>
+            </article>
+
+            <article class="card">
+              <h3>Momento</h3>
+              <p>Entrada + interação + parabéns + fotos, como um roteiro.</p>
+            </article>
+
+            <article class="card">
+              <h3>Memórias</h3>
+              <p>Fotos com “poster vibe” e lembranças da noite.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="programacao">
+        <div class="container">
+          <div class="section__head">
+            <h2>Programação</h2>
+            <p>Um roteiro simples, bem organizado e com ritmo de evento.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__time">19:30</div>
+              <div class="timeline__content">
+                <h3>Recepção & Chegada</h3>
+                <p>Entrada, cumprimentos e clima de “première”.</p>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__time">20:15</div>
+              <div class="timeline__content">
+                <h3>Fotos & Bastidores</h3>
+                <p>Fotos com vibe de pôster e momentos espontâneos.</p>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__time">21:00</div>
+              <div class="timeline__content">
+                <h3>Cena Principal</h3>
+                <p>Parabéns, bolo e o “clímax” da noite.</p>
+              </div>
+            </div>
+
+            <div class="timeline__item">
+              <div class="timeline__time">22:00</div>
+              <div class="timeline__content">
+                <h3>After / Música</h3>
+                <p>Som, conversa e encerramento no melhor momento.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="note">
+            <strong>Dica:</strong> você pode alterar horários e nomes livremente.
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contagem">
+        <div class="container">
+          <div class="section__head">
+            <h2>Contagem regressiva</h2>
+            <p>Faltam poucos frames para a estreia.</p>
+          </div>
+
+          <div class="countdown" role="group" aria-label="Contagem regressiva">
+            <div class="countdown__box">
+              <span class="countdown__num" id="days">0</span>
+              <span class="countdown__label">Dias</span>
+            </div>
+            <div class="countdown__box">
+              <span class="countdown__num" id="hours">0</span>
+              <span class="countdown__label">Horas</span>
+            </div>
+            <div class="countdown__box">
+              <span class="countdown__num" id="minutes">0</span>
+              <span class="countdown__label">Min</span>
+            </div>
+            <div class="countdown__box">
+              <span class="countdown__num" id="seconds">0</span>
+              <span class="countdown__label">Seg</span>
+            </div>
+          </div>
+
+          <p class="small" id="status"></p>
+        </div>
+      </section>
+
+      <section class="section" id="confirmar">
+        <div class="container">
+          <div class="cta">
+            <div class="cta__text">
+              <h2>Confirmar presença</h2>
+              <p>
+                Você pode usar esse botão para abrir seu WhatsApp e mandar a confirmação.
+              </p>
+            </div>
+
+            <div class="cta__actions">
+              <a
+                class="btn"
+                id="wppLink"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Confirmar no WhatsApp
+              </a>
+              <a class="btn btn--ghost" href="#top">Voltar ao topo</a>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <p>
+              Feito para a atividade de responsividade • EBAC • <span id="year"></span>
+            </p>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
